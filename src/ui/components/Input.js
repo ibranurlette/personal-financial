@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     backgroundColor: uiColor.border,
     fontFamily: 'OpenSans-Regular',
-    color: uiColor.text,
+    color: uiColor.black,
   }),
   leftContainer: {
     alignItems: 'center',
@@ -147,13 +147,13 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: uiDimen.small,
     borderBottomLeftRadius: uiDimen.small,
     padding: uiDimen.medium,
-    borderColor: uiColor.accent1,
-    backgroundColor: uiColor.accent1,
+    borderColor: uiColor.accent2,
+    backgroundColor: uiColor.accent2,
   },
   leftText: {
     fontSize: 16,
     fontFamily: 'OpenSans-Bold',
-    color: uiColor.accent1,
+    color: uiColor.white,
   },
   rightContainer: {
     alignItems: 'center',

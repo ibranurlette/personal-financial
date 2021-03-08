@@ -3,9 +3,12 @@ import {uiColor} from './uiColor';
 export const uiStyle = {
   screenOptions: {
     headerTitleStyle: {
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: 'OpenSans-Bold',
-      color: uiColor.accent6,
+      color: uiColor.white,
+    },
+    headerStyle: {
+      backgroundColor: uiColor.accent1,
     },
   },
   baseContainer: {
@@ -15,6 +18,6 @@ export const uiStyle = {
   formLabel: {
     fontSize: 16,
     fontFamily: 'OpenSans-Bold',
-    color: 'black',
+    color: uiColor.black,
   },
 };
