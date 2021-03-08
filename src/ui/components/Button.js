@@ -29,7 +29,7 @@ const Button = ({
       onPress={onPress}
       style={[styles.button(backgroundColor, outline, disabled), style]}>
       {isLoading ? (
-        <ActivityIndicator color={outline ? uiColor.accent3 : 'white'} />
+        <ActivityIndicator color={outline ? uiColor.accent1 : 'white'} />
       ) : (
         <View
           style={{
@@ -68,13 +68,13 @@ const styles = StyleSheet.create({
       ? 'transparent'
       : backgroundColor
       ? hexToRgba(backgroundColor, disabled ? '0.3' : '1')
-      : hexToRgba(uiColor.accent3, disabled ? '0.3' : '1'),
+      : hexToRgba(uiColor.accent1, disabled ? '0.3' : '1'),
     borderWidth: outline ? 1 : 0,
     borderColor: !outline
       ? 'transparent'
       : backgroundColor
       ? backgroundColor
-      : uiColor.accent3,
+      : uiColor.accent1,
     padding: uiDimen.medium,
     alignItems: 'center',
     borderRadius: uiDimen.small,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
       ? 'white'
       : backgroundColor
       ? backgroundColor
-      : uiColor.accent3,
+      : uiColor.accent1,
     fontSize: 18,
     fontFamily: 'OpenSans-SemiBold',
   }),

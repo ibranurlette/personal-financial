@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     backgroundColor: uiColor.border,
     fontFamily: 'OpenSans-Regular',
-    color: uiColor.text,
+    color: uiColor.black,
   }),
   inputWithLeft: (left, right) => ({
     flex: 1,
@@ -147,13 +147,13 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: uiDimen.small,
     borderBottomLeftRadius: uiDimen.small,
     padding: uiDimen.medium,
-    borderColor: uiColor.accent3,
-    backgroundColor: uiColor.accent3,
+    borderColor: uiColor.accent1,
+    backgroundColor: uiColor.accent1,
   },
   leftText: {
     fontSize: 16,
     fontFamily: 'OpenSans-Bold',
-    color: uiColor.accent5,
+    color: uiColor.accent1,
   },
   rightContainer: {
     alignItems: 'center',
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: uiDimen.small,
     borderBottomRightRadius: uiDimen.small,
     padding: uiDimen.medium,
-    backgroundColor: uiColor.accent3,
+    backgroundColor: uiColor.accent1,
   },
   rightButtonContainer: {
     alignItems: 'center',
