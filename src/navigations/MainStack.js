@@ -6,12 +6,13 @@ import routeName from './routeName';
 
 import HomeScreen from 'src/ui/screens/Main/HomeScreen';
 import NotePengeluaranScreen from 'src/ui/screens/Main/Pengeluaran/NotePengeluaranScreen';
+import HistoriPengeluaranScreen from 'src/ui/screens/Main/Pengeluaran/HistoriPengeluaranScreen';
 
 const Stack = createStackNavigator();
 
 const AuthStack = () => {
   return (
-    <Stack.Navigator initialRouteName={routeName.NotePengeluaran}>
+    <Stack.Navigator initialRouteName={routeName.HistoriPengeluaran}>
       <Stack.Screen
         name={routeName.Home}
         component={HomeScreen}
@@ -24,6 +25,11 @@ const AuthStack = () => {
           ...uiStyle.screenOptions,
           title: 'Catat Pengeluaran',
         }}
+      />
+      <Stack.Screen
+        name={routeName.HistoriPengeluaran}
+        component={HistoriPengeluaranScreen}
+        options={{headerShown: false}}
       />
     </Stack.Navigator>
   );
