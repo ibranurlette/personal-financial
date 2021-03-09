@@ -3,6 +3,7 @@ const routeName = {
   Home: 'Home',
   NotePengeluaran: 'NotePengeluaran',
   HistoriPengeluaran: 'HistoriPengeluaran',
+  TotalPengeluaran: 'TotalPengeluaran',
 };
 
 export default routeName;
